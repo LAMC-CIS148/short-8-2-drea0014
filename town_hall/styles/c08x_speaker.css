@@ -135,6 +135,7 @@ footer p {
 @media screen and (max-width: 850px) {
 body {
 font-size: 90%;
+border: none;
 }
 #nav_list ul li {
 border: none;
@@ -150,13 +151,13 @@ padding-left: 0;
 section,
 aside {
 float: none;
-width: 90%;
+width: 95%;
 }
 #nav_list ul li a {
 padding-left: 0;
 }
 aside {
 border: none;
-width: 90%;
+width: 95%;
 	}
 }
