@@ -131,27 +131,31 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-/*media query of screen with max width 850px  */
-@media only screen and (max-width: 850px) {
-  body {
-    font-size: 90%;
-    border: none;
-  }
-  #nav_list ul li {
-    box-shadow: none;
-    background-image: none;
-    padding-left: 0;
-  }
+/* Media query for screens with maximum width of 850 pixels */
+@media screen and (max-width: 850px) {
+body {
+font-size: 90%;
 }
-
-/*media query of screen with max width 850px  */
-@media only screen and (max-width: 650px) {
-  section {
-    float: none;
-    width: 95%;
-  }
-  aside {
-    float: none;
-    width: 95%;
-  }
+#nav_list ul li {
+border: none;
+box-shadow: none;
+background-image: none;
+}
+#nav_list ul li a {
+padding-left: 0;
+}
+	
+/* Media query for screens with maximum width of 650 pixels */
+@media screen and (max-width: 650px) {
+section,
+aside {
+float: none;
+width: 95%;
+}
+#nav_list ul li a {
+padding-left: 0;
+}
+aside {
+border: none;
+	}
 }
